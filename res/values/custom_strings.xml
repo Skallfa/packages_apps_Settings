@@ -137,14 +137,18 @@
 
     <!-- PEX maintainer in About phone -->
     <string name="pex_maintainer">Maintainer</string>
-    <string name="pex_maintainer_name" translatable="false">Aryan Gupta (heisinbug)</string>
-    <string name="pex_maintainer_group" translatable="false">https://t.me/pixelextended</string>
+    <string name="pex_maintainer_name" translatable="false">Max</string>
+    <string name="pex_maintainer_group" translatable="false">https://t.me/PSKMaxi</string>
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
     <!-- Text shown for the title of the restart systemui option -->
     <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
+    
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
