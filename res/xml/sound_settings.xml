@@ -203,7 +203,7 @@
         android:order="-50"/>
 
     <!-- Screen locking sounds -->
-    <SwitchPreference
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="screen_locking_sounds"
         android:title="@string/screen_locking_sounds_title"
         android:order="-45"/>
