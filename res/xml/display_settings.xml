@@ -54,6 +54,11 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
+         
+         <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="adaptive_sleep"
+            android:title="@string/adaptive_sleep_title"
+            android:summary="@string/adaptive_sleep_summary"/>
     </PreferenceCategory>
 
     <PreferenceCategory
