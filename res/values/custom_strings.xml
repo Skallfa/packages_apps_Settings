@@ -179,6 +179,9 @@
     <!-- Screen attention -->
     <string name="adaptive_sleep_title">Screen attention</string>
     <string name="adaptive_sleep_summary">Prevents your screen from turning off if you\u2019re looking at it</string>
+    
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
