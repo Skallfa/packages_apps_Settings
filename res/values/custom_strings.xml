@@ -175,6 +175,10 @@
     <string name="volume_persen_style_title">Percentage Location</string>
     <string name="volume_persen_style_top">Top</string>
     <string name="volume_persen_style_bottom">Bottom</string>
+    
+    <!-- Screen attention -->
+    <string name="adaptive_sleep_title">Screen attention</string>
+    <string name="adaptive_sleep_summary">Prevents your screen from turning off if you\u2019re looking at it</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
