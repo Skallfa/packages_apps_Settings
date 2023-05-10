@@ -198,6 +198,21 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
 
         updateIndicator(mViewPager.getCurrentItem());
     }
+    
+    @Override
+    public void updateCandidates() {
+        super.updateCandidates();
+
+        PreferenceScreen screen = getPreferenceScreen();
+        getPreferenceManager().inflateFromResource(screen.getContext(), R.xml.color_mode_settings,
+                screen);
+
+        for (int channel = 0; channel < 3; channel++) {
+            ColorBalancePreferenceController controller = new ColorBalancePreferenceController(
+                    screen.getContext(), ColorBalancePreferenceController.channelToKey(channel));
+            controller.displayPreference(screen);
+        }
+    }
 
     @Override
     protected void addStaticPreferences(PreferenceScreen screen) {
