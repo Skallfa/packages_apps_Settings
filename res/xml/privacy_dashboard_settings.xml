@@ -146,5 +146,10 @@
         android:title="@string/show_clip_access_notification"
         android:summary="@string/show_clip_access_notification_summary"
         settings:controller="com.android.settings.privacy.ShowClipAccessNotificationPreferenceController"/>
+  
+  <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="adaptive_sleep"
+            android:title="@string/adaptive_sleep_title"
+            android:summary="@string/adaptive_sleep_summary"/>
 
 </PreferenceScreen>
