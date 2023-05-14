@@ -208,6 +208,10 @@
     <!-- Text shown for the title of the restart systemui option -->
     <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
     
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    
     <!-- Charging animation -->
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
