@@ -224,7 +224,7 @@
         android:order="-45"/>
      
      <!-- Screenshot shutter sound -->
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <SwitchPreference
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title"
         android:order="-43"/>
