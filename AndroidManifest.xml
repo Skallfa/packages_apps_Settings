@@ -4625,6 +4625,14 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/build_tweaks_summary_title"/>
         </activity>
+              
+              <!-- Bluetooth Timeout -->
+        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.intent.TIMEOUT" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
 
