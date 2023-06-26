@@ -22,7 +22,7 @@ import android.os.UserHandle
 import android.provider.Settings
 
 import com.android.settings.R
-import com.android.settings.pixys.fragments.AppListFragment
+import com.android.settings.fragments.AppListFragment
 
 class HiddenAppSettingsFragment : AppListFragment() {
 
