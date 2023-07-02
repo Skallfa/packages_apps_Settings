@@ -133,12 +133,20 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
+        <!-- Actually controls doze enablement -->
         <SwitchPreference
             android:key="ambient_display_notification"
-            android:title="@string/doze_title"
-            android:summary="@string/doze_summary"
+            android:title="@string/doze_enabled_title"
+            android:summary="@string/doze_enabled_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
+        <!-- Controls wake for notifications -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="doze_for_notifications" 
+            android:title="@string/doze_title"
+            android:summary="@string/doze_summary"
+            android:defaultValue="true" />
+         
         <com.android.settings.custom.preference.RemotePreference
             android:key="doze_device_settings"
             android:title="@string/ambient_display_screen_title"
