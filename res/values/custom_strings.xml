@@ -259,6 +259,10 @@
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Deep sleep</string>
 
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
